@@ -1,0 +1,92 @@
+*{
+    background-color: black;
+    margin: 0;
+    font-family: inter;
+    color:white;
+}
+
+/* header Start */
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    margin: 12px 22px;
+    padding: 22px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurantName{
+    font-size: 32px;
+}
+.navBar ul{
+    font-size: 24px;
+    display: flex;
+    width: 569px;
+    padding: 21px 84px;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navBar ul a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#contactButton{
+    display: flex;
+    padding: 20px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background: linear-gradient(110deg, #00F 11.25%, #F0F 91.41%);
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* header end */
+
+section{
+    padding: 56px 44px;
+}
+
+/*about Start */
+.descriptionContainer{
+    display: flex;
+    border-radius: 40px;
+    background: url(/assets/MainPlaceImage.png) lightgray -4.086px -695.055px / 100% 304.505%  no-repeat;
+    overflow: hidden;
+}
+.descriptionContainer .textContainer{
+    display: flex;
+    background: conic-gradient(from 110deg at 65.8% 104.5%, #1D1B1B 165.6000030040741deg, rgba(134, 129, 129, 0.00) 360deg);
+    padding: 72px 28px;
+    height: 100%;
+    
+}
+.descriptionContainer p{
+    font-size: clamp( 16px, 3vw, 24px);
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 50%;
+}
+
+/*about end */
+
+
+
+
+
+
+
